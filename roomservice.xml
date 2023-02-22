@@ -1,0 +1,12 @@
+<manifest>
+    <!-- Device Tree (a.k.a DT) -->
+    <project path="device/xiaomi/spes" remote="github" name="TheMatheusDev/android_device_xiaomi_spes" revision="13-staging"/>
+    <!-- Kernel Header -->
+    <!-- (Spes doesn't have kernel source so whe are only using header) -->
+    <project path="kernel/xiaomi/spes" remote="github" name="Jabiyeff/kernel_xiaomi_spes_header" revision="12"/>
+    <!-- Vendor Tree -->
+    <project path="vendor/xiaomi/spes" remote="github" name="TheMatheusDev/android_vendor_xiaomi_spes" revision="13.0"/>
+    <!-- Hardware Tree -->
+    <!-- (Some ROMs doesn't require it, such as BananaDroid. LOS based ROMs will probably need it) -->
+    <project path="hardware/xiaomi" remote="github" name="Jabiyeff/android_hardware_xiaomi" revision="13.0"/>
+</manifest>
