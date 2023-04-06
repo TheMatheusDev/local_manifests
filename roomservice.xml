@@ -4,7 +4,7 @@
     <!-- Kernel Header -->
     <project path="kernel/xiaomi/spes" remote="github" name="Jabiyeff/kernel_xiaomi_spes_header" revision="12"/>
     <!-- Vendor Tree -->
-    <project path="vendor/xiaomi/spes" remote="github" name="TheMatheusDev/android_vendor_xiaomi_spes" revision="13.0"/>
+    <project path="vendor/xiaomi/spes" remote="github" name="TheMatheusDev/android_vendor_xiaomi_spes" revision="new-thermal"/>
     <!-- Hardware Tree -->
     <!-- (Some ROMs doesn't require it, such as BananaDroid.) -->
     <project path="hardware/xiaomi" remote="github" name="Jabiyeff/android_hardware_xiaomi" revision="13.0"/>
