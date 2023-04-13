@@ -45,7 +45,7 @@
     <project path="vendor/xiaomi/sm6225-common" remote="gitlab-pe" name="android/vendor-blobs/vendor_xiaomi_sm6225-common" revision="thirteen"/>
 
     https://gitlab.pixelexperience.org/android/vendor-blobs/vendor_xiaomi_spes/-/commit/b4e76e44835040a0b38fc26e7a2949208d72a6ea 
-            TOPAZ VENDOR!!! YOU MAY NEED THIS COMMIT TO BUILD A AOSP, BUT REMEMBER TO INCLUDE HIS LAST COMMIT FROM THE PE VENDOR      -->
+            TOPAZ VENDOR!!! YOU MAY NEED THIS LAST COMMIT FROM THE PE VENDOR TO BUILD A AOSP     -->
     <project path="vendor/xiaomi" remote="github" name="CHRISL7/proprietary_vendor_xiaomi" revision="topaz"/>
     
 
