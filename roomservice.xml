@@ -6,8 +6,8 @@
     <remove-project name="PixelExperience-Devices/device_qcom_common"/>
     <project path="device/qcom/common" remote="github" name="PixelExperience-Devices/device_qcom_common" revision="thirteen"/>
     <project path="device/qcom/common-sepolicy" remote="github" name="TheMatheusDev/device_qcom_common-sepolicy" revision="thirteen"/>
-    <!-- THIS TWO ABOVE IS EVOLUTION-X SPECIFIC. YOU NEED TO CHANGE THE BELOW FILES TO YOUR MATCH YOUR ROM NAME! -->
-    <!-- qcom/common/common.mk, common-sepolicy/sepolicy_vndr/SEPolicy.mk -->
+    <!-- THESE TWO ABOVE IS EVOLUTION-X SPECIFIC. YOU NEED TO CHANGE THE BELOW FILES TO YOUR MATCH YOUR ROM NAME! -->
+    <!-- device/qcom/common/common.mk, device/qcom/common-sepolicy/sepolicy_vndr/SEPolicy.mk -->
     <project path="device/qcom/qssi" remote="github" name="PixelExperience-Devices/device_qcom_qssi" revision="thirteen"/>
     <project path="device/qcom/vendor-common" remote="github" name="PixelExperience-Devices/device_qcom_vendor-common" revision="thirteen"/>
     <project path="device/qcom/wlan" remote="github" name="PixelExperience-Devices/device_qcom_wlan" revision="thirteen"/>
@@ -40,13 +40,12 @@
     <project path="device/xiaomi/spes-kernel" remote="github" name="PixelExperience-Devices/device_xiaomi_spes-kernel" revision="thirteen"/>
     <project path="kernel/xiaomi/sm6225" remote="github" name="PixelExperience-Devices/kernel_xiaomi_sm6225" revision="thirteen"/>
 
-    <!--    PE VENDOR!!! PE vendor is commented because CHRISL7/proprietary_vendor_xiaomi is now more updated!
+    <!--    AOSPA vendor below!!! Used by Chris to test stuff!
+    <project path="vendor/xiaomi" remote="github" name="CHRISL7/proprietary_vendor_xiaomi" revision="topaz"/> -->
+    
     <project path="vendor/xiaomi/spes" remote="gitlab-pe" name="android/vendor-blobs/vendor_xiaomi_spes" revision="thirteen"/>
     <project path="vendor/xiaomi/sm6225-common" remote="gitlab-pe" name="android/vendor-blobs/vendor_xiaomi_sm6225-common" revision="thirteen"/>
-
-    https://gitlab.pixelexperience.org/android/vendor-blobs/vendor_xiaomi_spes/-/commit/b4e76e44835040a0b38fc26e7a2949208d72a6ea 
-            TOPAZ VENDOR!!! YOU MAY NEED THIS LAST COMMIT FROM THE PE VENDOR TO BUILD A AOSP     -->
-    <project path="vendor/xiaomi" remote="github" name="CHRISL7/proprietary_vendor_xiaomi" revision="topaz"/>
+    
     
 
     
