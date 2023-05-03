@@ -37,7 +37,10 @@
     <!-- spes device tree dependencies: -->
     <project path="device/xiaomi/spes" remote="github" name="TheMatheusDev/device_xiaomi_spes" revision="thirteen"/>
     <project path="device/xiaomi/sm6225-common" remote="github" name="TheMatheusDev/device_xiaomi_sm6225-common" revision="thirteen-wip"/>
-    <project path="device/xiaomi/spes-kernel" remote="github" name="PixelExperience-Devices/device_xiaomi_spes-kernel" revision="thirteen"/>
+    <!-- ORIGINAL PE KERNEL BELOW!! -->
+    <!-- <project path="device/xiaomi/spes-kernel" remote="github" name="PixelExperience-Devices/device_xiaomi_spes-kernel" revision="thirteen"/> -->
+    <project path="device/xiaomi/spes-kernel" remote="github" name="TheMatheusDev/device_xiaomi_spes-kernel" revision="thirteen"/>
+    
     <project path="kernel/xiaomi/sm6225" remote="github" name="PixelExperience-Devices/kernel_xiaomi_sm6225" revision="thirteen"/>
 
     <!--    AOSPA vendor below!!! Used by Chris to test stuff!
