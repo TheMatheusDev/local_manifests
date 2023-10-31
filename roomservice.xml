@@ -6,23 +6,26 @@
     <project path="device/qcom/common-sepolicy" remote="github" name="PixelExperience-Devices/device_qcom_common-sepolicy" revision="fourteen"/>
     <!-- THESE TWO ABOVE IS EVOLUTION-X SPECIFIC. YOU NEED TO CHANGE THE BELOW FILES TO YOUR MATCH YOUR ROM NAME! -->
     <!-- device/qcom/common/common.mk, device/qcom/common-sepolicy/sepolicy_vndr-legacy/SEPolicy.mk -->
-    <project path="device/qcom/qssi" remote="github" name="PixelExperience-Devices/device_qcom_qssi" revision="thirteen"/>
+    <project path="device/qcom/qssi" remote="github" name="PixelExperience-Devices/device_qcom_qssi" revision="fourteen"/>
     <project path="device/qcom/vendor-common" remote="github" name="PixelExperience-Devices/device_qcom_vendor-common" revision="fourteen"/>
-    <project path="device/qcom/wlan" remote="github" name="PixelExperience-Devices/device_qcom_wlan" revision="thirteen"/>
+    <project path="device/qcom/wlan" remote="github" name="PixelExperience-Devices/device_qcom_wlan" revision="fourteen"/>
 
 <!-- QCOM/COMMON Source dependencies -->
     <project path="vendor/qcom/common" remote="gitlab-pe" name="android/vendor-blobs/vendor_qcom_common" revision="thirteen"/>
     <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" remote="github" name="PixelExperience/vendor_qcom_opensource_commonsys-intf_bluetooth" revision="thirteen"/>
     <project path="vendor/qcom/opensource/core-utils" remote="github" name="PixelExperience-Staging/vendor_qcom_opensource_core-utils" revision="fourteen"/>
-    <project path="vendor/qcom/opensource/commonsys/dpm" remote="github" name="PixelExperience/vendor_qcom_opensource_commonsys_dpm" revision="thirteen"/>
+    <project path="vendor/qcom/opensource/commonsys/dpm" remote="github" name="PixelExperience-Staging/vendor_qcom_opensource_commonsys_dpm" revision="fourteen"/>
     <project path="vendor/qcom/opensource/audio" remote="github" name="PixelExperience/vendor_qcom_opensource_audio" revision="thirteen"/>
     <remove-project name="android_vendor_qcom_opensource_interfaces"/>
     <project path="vendor/qcom/opensource/interfaces" remote="github" name="PixelExperience-Staging/vendor_qcom_opensource_interfaces" revision="fourteen"/>
     <remove-project name="android_vendor_qcom_opensource_fm-commonsys"/>
     <project path="vendor/qcom/opensource/fm-commonsys" remote="github" name="PixelExperience-Staging/vendor_qcom_opensource_fm-commonsys" revision="fourteen"/>
 
-    <!-- Display HAL with FIX to AOD -->
+    <!-- HALs -->
     <project path="hardware/qcom-caf/bengal/display" remote="github" name="PixelExperience-Staging/hardware_qcom-caf_bengal_display" revision="fourteen"/>
+    <project path="hardware/qcom-caf/bengal/media" remote="github" name="PixelExperience-Staging/hardware_qcom-caf_bengal_media" revision="fourteen"/>
+    <project path="hardware/qcom-caf/bengal/gps" remote="github" name="PixelExperience-Staging/hardware_qcom-caf_bengal_gps" revision="fourteen"/>
+    <project path="hardware/qcom-caf/bengal/audio" remote="github" name="PixelExperience-Staging/hardware_qcom-caf_bengal_audio" revision="fourteen"/>
 
     <!-- Source NFC --> 
     <remove-project name="platform/hardware/st/nfc"/>
@@ -32,7 +35,7 @@
     <project path="device/xiaomi/spes" remote="github" name="TheMatheusDev/device_xiaomi_spes" revision="fourteen"/>
     <project path="device/xiaomi/sm6225-common" remote="github" name="TheMatheusDev/device_xiaomi_sm6225-common" revision="fourteen"/>
     <!--<project path="device/xiaomi/sm6225-common-miuicamera" remote="github" name="AOSPA/android_device_xiaomi_sm6225-common-miuicamera" revision="topaz"/>-->
-    <project path="device/xiaomi/spes-kernel" remote="github" name="TheMatheusDev/device_xiaomi_spes-kernel" revision="thirteen"/>
+    <!--<project path="device/xiaomi/spes-kernel" remote="github" name="TheMatheusDev/device_xiaomi_spes-kernel" revision="thirteen"/>-->
     
     <project path="kernel/xiaomi/sm6225" remote="github" name="TheMatheusDev/android_kernel_xiaomi_sm6225" revision="spes-upstream-inline"/>
     
