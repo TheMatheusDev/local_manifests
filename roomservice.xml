@@ -1,5 +1,6 @@
 <manifest>
   <remote name="gitlab-pe" fetch="https://gitlab.pixelexperience.org"></remote>
+  <remote name="gitlab-pa" fetch="https://gitlab.com/ThankYouMario"></remote>
 
 
 <!-- QCOM/COMMON device and vendor dependecies -->
@@ -19,12 +20,12 @@
     <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" remote="github" name="AOSPA/android_vendor_qcom-opensource_bluetooth-commonsys-intf" revision="uvite"/>
     <remove-project name="android_vendor_qcom_opensource_display-commonsys"/>
     <project path="vendor/qcom/opensource/commonsys/display" remote="github" name="AOSPA/android_vendor_qcom-opensource_display-commonsys" revision="uvite"/>
-    <project path="vendor/qcom/opensource/commonsys/dpm" remote="github" name="PixelExperience-Staging/vendor_qcom_opensource_commonsys_dpm" revision="fourteen"/>
-    <project path="vendor/qcom/opensource/audio" remote="github" name="PixelExperience-Staging/vendor_qcom_opensource_audio" revision="fourteen"/>
+    <project path="vendor/qcom/opensource/commonsys/dpm" remote="github" name="TheMatheusDev/vendor_qcom_opensource_commonsys_dpm" revision="fourteen"/>
+    <project path="vendor/qcom/opensource/audio" remote="github" name="TheMatheusDev/vendor_qcom_opensource_audio" revision="fourteen"/>
     <remove-project name="android_vendor_qcom_opensource_interfaces"/>
-    <project path="vendor/qcom/opensource/interfaces" remote="github" name="PixelExperience-Staging/vendor_qcom_opensource_interfaces" revision="fourteen"/>
+    <project path="vendor/qcom/opensource/interfaces" remote="github" name="TheMatheusDev/vendor_qcom_opensource_interfaces" revision="fourteen"/>
     <remove-project name="android_vendor_qcom_opensource_fm-commonsys"/>
-    <project path="vendor/qcom/opensource/fm-commonsys" remote="github" name="PixelExperience-Staging/vendor_qcom_opensource_fm-commonsys" revision="fourteen"/>
+    <project path="vendor/qcom/opensource/fm-commonsys" remote="github" name="TheMatheusDev/vendor_qcom_opensource_fm-commonsys" revision="fourteen"/>
 
     <!-- HALs -->
     <project path="hardware/qcom-caf/bengal/display" remote="github" name="TheMatheusDev/hardware_qcom-caf_bengal_display" revision="uvite-865"/>
@@ -36,9 +37,14 @@
     <remove-project name="platform/hardware/st/nfc"/>
     <project path="hardware/st/nfc" remote="github" name="AOSPA/android_hardware_st_nfc" revision="uvite"/>
 
+    <!-- To support our Singlel/Double Tap --> 
+    <remove-project name="hardware_xiaomi"/>
+    <project path="hardware/xiaomi" remote="github" name="AOSPA/android_hardware_xiaomi" revision="uvite"/>
+
     <!-- MTP/USB --> 
     <remove-project name="android_vendor_qcom_opensource_usb"/>
-    <project path="vendor/qcom/opensource/usb/" remote="github" name="PixelExperience-Staging/vendor_qcom_opensource_usb" revision="fourteen"/>
+    <project path="vendor/qcom/opensource/usb/" remote="github" name="AOSPA/android_vendor_qcom-opensource_usb" revision="uvite"/>
+    <!--<project path="vendor/qcom/opensource/usb/" remote="github" name="PixelExperience-Staging/vendor_qcom_opensource_usb" revision="fourteen"/>--> 
 
     <!-- WIFI -->
     <remove-project name="external_wpa_supplicant_8"/>
@@ -46,20 +52,20 @@
 
     <!-- Just to make sure, why not? xD (wifi) -->
     <remove-project name="android_hardware_qcom_wlan"/>
-    <project path="hardware/qcom-caf/wlan" remote="github" name="PixelExperience-Staging/hardware_qcom-caf_wlan" revision="fourteen"/>
+    <project path="hardware/qcom-caf/wlan" remote="github" name="TheMatheusDev/hardware_qcom-caf_wlan" revision="fourteen"/>
 
-    <!--<project path="device/xiaomi/sm6225-common-miuicamera" remote="github" name="AOSPA/android_device_xiaomi_sm6225-common-miuicamera" revision="topaz"/>-->
-    
     <project path="kernel/xiaomi/sm6225" remote="github" name="TheMatheusDev/android_kernel_xiaomi_sm6225-2" revision="uvite"/>
     <project path="device/xiaomi/sepolicy" remote="github" name="TheMatheusDev/android_device_xiaomi_sepolicy" revision="uvite"/>
-    
+
     <project path="device/xiaomi/sm6225-common" remote="github" name="TheMatheusDev/device_xiaomi_sm6225-common" revision="evox-a14"/>
     <project path="device/xiaomi/spes" remote="github" name="TheMatheusDev/device_xiaomi_spes" revision="evox-a14"/>
 
     <project path="vendor/xiaomi/spes" remote="github" name="TheMatheusDev/vendor_xiaomi_spes" revision="fourteen"/>
     <project path="vendor/xiaomi/sm6225-common" remote="github" name="TheMatheusDev/vendor_xiaomi_sm6225-common" revision="fourteen"/>
-    
-    <!-- OTA -->
+
+    <project path="vendor/xiaomi/camera" remote="gitlab-pa" name="proprietary_vendor_xiaomi_camera" revision="uvite-sm6225"/>
+
+    <!-- Experimental/disable OTA -->
     <remove-project name="packages_apps_Updates"/>
     <project path="packages/apps/Updates" remote="github" name="TheMatheusDev/packages_apps_Updates" revision="udc"/>
 
