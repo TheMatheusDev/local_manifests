@@ -4,7 +4,7 @@
 
 
 <!-- QCOM/COMMON device and vendor dependecies -->
-    <project path="device/qcom/common-sepolicy" remote="github" name="PixelExperience-Devices/device_qcom_common-sepolicy" revision="fourteen"/>
+    <project path="device/qcom/common-sepolicy" remote="github" name="TheMatheusDev/device_qcom_common-sepolicy" revision="uvite"/>
     <project path="device/qcom/common" remote="github" name="TheMatheusDev/device_qcom_common" revision="fourteen"/>
     <!-- YOU NEED TO CHANGE THE BELOW FILES TO YOUR MATCH YOUR ROM NAME! -->
     <!-- device/qcom/common/common.mk, device/qcom/common/BoardConfigQcom.mk -->
