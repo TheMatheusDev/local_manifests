@@ -10,7 +10,7 @@ rm -rf device/qcom/common
 git clone https://github.com/TheMatheusDev/device_qcom_common.git -b fourteen --depth=1 device/qcom/common
 
 rm -rf device/qcom/qssi
-git clone https://github.com/TheMatheusDev/android_device_qcom_qssi.git -b uvite --depth=1 device/qcom/qssi
+git clone https://github.com/AOSPA/android_device_qcom_qssi.git -b uvite --depth=1 device/qcom/qssi
 
 # Additional repositories
 rm -rf device/qcom/wlan
