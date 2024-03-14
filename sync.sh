@@ -84,6 +84,6 @@ git clone https://github.com/TheMatheusDev/device_xiaomi_spes.git -b evox-a14 --
 git clone https://github.com/TheMatheusDev/vendor_xiaomi_spes.git -b fourteen --depth=1 vendor/xiaomi/spes
 git clone https://github.com/TheMatheusDev/vendor_xiaomi_sm6225-common.git -b fourteen --depth=1 vendor/xiaomi/sm6225-common
 
-git clone https://gitlab-pa.com/proprietary_vendor_xiaomi_camera.git -b uvite-sm6225 --depth=1 vendor/xiaomi/camera
+git clone https://gitlab.com/ThankYouMario/proprietary_vendor_xiaomi_camera.git -b uvite-sm6225 --depth=1 vendor/xiaomi/camera
 
 echo "Ascending's manifest synced!"
